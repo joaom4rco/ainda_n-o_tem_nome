@@ -1,28 +1,33 @@
-// const carrossel = document.querySelector('.carrossel-grid');
-// const prevButton = document.querySelector('.anterior-button');
-// const nextButton = document.querySelector('.proximo-button');
-// const items = document.querySelectorAll('.carrossel-item');
+const controls = document.querySelectorAll(".control");
+let currentItem = 0;
+const items = document.querySelectorAll(".item");
+const maxItems = items.length;
 
-// let currentIndex = 0;
+controls.forEach((control) => {
+  control.addEventListener("click", (e) => {
+    isLeft = e.target.classList.contains("arrow-left");
 
-// function nextItem() {
-//   if (currentIndex < items.length - 1) {
-//     currentIndex++;
-//     translateCarrossel();
-//   }
-// }
+    if (isLeft) {
+      currentItem -= 1;
+    } else {
+      currentItem += 1;
+    }
 
-// function prevItem() {
-//   if (currentIndex > 0) {
-//     currentIndex--;
-//     translateCarrossel();
-//   }
-// }
+    if (currentItem >= maxItems) {
+      currentItem = 0;
+    }
 
-// function translateCarrossel() {
-//   const translateValue = -currentIndex * 50; // 100% de deslocamento por item
-//   carrossel.style.transform = `translateX(${translateValue}%)`;
-// }
+    if (currentItem < 0) {
+      currentItem = maxItems - 1;
+    }
 
-// prevButton.addEventListener('click', prevItem);
-// nextButton.addEventListener('click', nextItem);
+    items.forEach((item) => item.classList.remove("current-item"));
+
+    items[currentItem].scrollIntoView({
+      behavior: "smooth",
+      inline: "center"
+    });
+
+    items[currentItem].classList.add("current-item");
+  });
+});
