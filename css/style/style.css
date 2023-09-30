@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 62.5%;
+}
+:root {
+    --font-padrao: font-family: 'Lato', sans-serif;
 }
 body {
     background-color: black !important;
@@ -71,7 +75,7 @@ body {
 }
 .conteudo-principal {
     max-width: 370px;
-    margin:  0 auto;
+    margin:  0 5%;
 }
 .espaco-novo {
     z-index: 0;
@@ -80,6 +84,7 @@ body {
     color: white;
     margin-top: 1.6rem;
     margin-bottom: 0.5px;
+    font-family: var(--font-padrao);
 }
 .conteudo-carrossel h2 {
     color: #545656;
