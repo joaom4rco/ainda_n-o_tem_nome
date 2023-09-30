@@ -74,11 +74,7 @@ body {
     margin:  0 auto;
 }
 .espaco-novo {
-    height: 50vh;
     z-index: 0;
-}
-.espaco-novo img {
-    min-height: 34rem;
 }
 .conteudo-carrossel h1 {
     color: white;
