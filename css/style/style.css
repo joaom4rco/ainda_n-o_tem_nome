@@ -2,9 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 body {
     background-color: black !important;
+}
+.container-header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
 }
 .container-conteudo {
     display: flex;
@@ -49,7 +56,7 @@ body {
     width: 50px;
     height: 49px;
     position: absolute;
-    top: 2.5%;
+    top: 20%;
 }
 .nav-img .nome-img {
     width: 110px;
@@ -58,4 +65,26 @@ body {
 .icon-grid {
     display: flex;
     justify-content: center;
+}
+.espaco {
+    margin-bottom: 8rem;
+}
+.conteudo-principal {
+    max-width: 370px;
+    margin:  0 auto;
+}
+.espaco-novo {
+    height: 50vh;
+    z-index: 0;
+}
+.espaco-novo img {
+    min-height: 34rem;
+}
+.conteudo-carrossel h1 {
+    color: white;
+    margin-top: 1.6rem;
+    margin-bottom: 0.5px;
+}
+.conteudo-carrossel h2 {
+    color: #545656;
 }
