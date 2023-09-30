@@ -1,0 +1,19 @@
+.espaco {
+    margin-bottom: 8rem;
+}
+.conteudo-principal {
+    max-width: 370px;
+    margin:  0 5%;
+}
+.espaco-novo {
+    z-index: 0;
+}
+.conteudo-carrossel h1 {
+    color: white;
+    margin-top: 1.6rem;
+    margin-bottom: 0.5px;
+    font-family: var(--font-padrao);
+}
+.conteudo-carrossel h2 {
+    color: #545656;
+}
