@@ -17,9 +17,15 @@
 .conteudo-carrossel h2 {
     color: #545656;
 }
+.carousel-control-prev {
+    z-index: 0 !important;
+
+}
+.carousel-control-next{
+    z-index: 0 !important;
+}
 .carousel-inner {
-    height: 530px;
-    
+    max-height: 530px;
 }
 .carousel-item  {
     position: relative !important;
@@ -30,17 +36,27 @@
 }
 .container-inner {
     display: flex;
-    margin-left: 15px;
+    margin-left: 2%;
     position: absolute;
     top: 70%;
+    @media (min-width:355px) {
+        margin-left: 5%;
+    }
 }
 .carousel-inner-anime {
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 2 !important;
+    max-width: 500px;
     min-width: 300px ;
+
     background-color: #f47521;
+
+    @media (max-width:355px) {
+        max-width: 200px;
+        min-width: 100%;
+    }
 }
 .carousel-inner-anime h2 {
     color: black !important;
