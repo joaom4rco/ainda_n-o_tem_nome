@@ -69,7 +69,7 @@
         max-width: 200px;
         min-width: 100%;
     }
-    @media (min-width:460px) {
+    @media (min-width:466px) {
         max-width: 400px;
         min-width: 400px;
     }
