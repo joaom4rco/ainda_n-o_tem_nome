@@ -65,11 +65,11 @@
 
     background-color: #f47521;
 
-    @media (max-width:360px) {
+    @media (max-width:376px) {
         max-width: 200px;
         min-width: 100%;
     }
-    @media (min-width:466px) {
+    @media (min-width:470px) {
         max-width: 400px;
         min-width: 400px;
     }
