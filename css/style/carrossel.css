@@ -8,21 +8,23 @@
   .gallery-wrapper {
     overflow-x: auto;
   }
-  
+
 .arrow-left,
 .arrow-right {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: auto;
-    bottom: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: 0;
+  transform: translateY(-10%);
     font-size: 35px;
     line-height: 250px;
     width: 40px;
     color: #fff;
     transition: all 600ms ease-in-out;
     background: linear-gradient(to left, transparent 0%, black 200%);
-    opacity: 0.1;
+    opacity: .5;
+    z-index: 1;
     cursor: pointer;
     border: none;
 }
@@ -46,11 +48,11 @@
 }
   
 .item {
-    width: 250px;
+    width: 200px;
     height: 250px;
     flex-shrink: 0;
     transition: all 600ms ease-in-out;
-    opacity: 0.5;
+    opacity: .8;
 }
   
 .current-item {
@@ -70,3 +72,21 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
   }
+.gallery-flex {
+  display: flex;
+  flex-direction: column;
+}
+.gallery-flex img:hover {
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 100;
+  color: #fff !important;
+  padding: 8px 0 0 ;
+}
+p {
+  font-size: 1.6rem;
+  color: #bab6b6 !important;
+}
