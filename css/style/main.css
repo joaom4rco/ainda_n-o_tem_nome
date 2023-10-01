@@ -50,7 +50,7 @@
         margin-left: 5%;
     }
     
-    @media (min-width:460px) {
+    @media (min-width:410px) {
         top: 80%;
     }
     
@@ -72,6 +72,10 @@
     @media (min-width:460px) {
         max-width: 400px;
         min-width: 400px;
+    }
+    @media (min-width:410px) and (max-width:460px) {
+        max-width: 300px;
+        min-width: 300px;
     }
 }
 .carousel-inner-anime h2 {
