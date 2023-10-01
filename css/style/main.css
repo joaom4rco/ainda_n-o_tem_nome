@@ -25,7 +25,8 @@
     z-index: 0 !important;
 }
 .carousel-inner {
-    min-height: 530px;
+    height: 60vh;
+
 }
 .carousel-item  {
     position: relative !important;
