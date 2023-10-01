@@ -5,12 +5,14 @@
     box-sizing: border-box;
     font-size: 62.5%;
 }
+
 :root {
     --font-padrao: font-family: 'Lato', sans-serif;
 }
 body {
     background-color: black !important;
 }
+
 .container-header {
     position: fixed;
     top: 0;
