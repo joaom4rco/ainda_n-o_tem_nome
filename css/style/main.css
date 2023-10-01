@@ -24,15 +24,13 @@
 .carousel-item  {
     position: relative !important;
 }
-.anime-container {
-    anime-container
-}
+
 .carousel-inner-anime {
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 2 !important;
-    min-width: 300px !important;
+    min-width: 300px ;
     left: 7%;
     position: absolute;
     top: 80%;
@@ -43,6 +41,18 @@
     font-size: 1.8rem !important;
     padding: 5px 5px;
 }
-.bookmark {
+.carousel-inner-anime-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2 !important;
     position: absolute;
+    right: 8%;
+    top: 80%;
+}
+.bookmark {
+    border: 3px solid #f47521 ;
+    padding: 5px;
+    font-size: 5.5rem;
+    color: #f47521;
 }
