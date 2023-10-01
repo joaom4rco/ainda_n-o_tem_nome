@@ -18,7 +18,7 @@
     color: #545656;
 }
 .carousel-inner {
-    height: 600px;
+    height: 530px;
     
 }
 .carousel-item  {
@@ -33,7 +33,7 @@
     min-width: 300px ;
     left: 7%;
     position: absolute;
-    top: 80%;
+    top: 70%;
     background-color: #f47521;
 }
 .carousel-inner-anime h2 {
@@ -48,7 +48,7 @@
     z-index: 2 !important;
     position: absolute;
     right: 8%;
-    top: 80%;
+    top: 70%;
 }
 .bookmark {
     border: 3px solid #f47521 ;
