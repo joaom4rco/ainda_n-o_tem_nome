@@ -17,3 +17,32 @@
 .conteudo-carrossel h2 {
     color: #545656;
 }
+.carousel-inner {
+    height: 600px;
+    
+}
+.carousel-item  {
+    position: relative !important;
+}
+.anime-container {
+    anime-container
+}
+.carousel-inner-anime {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2 !important;
+    min-width: 300px !important;
+    left: 7%;
+    position: absolute;
+    top: 80%;
+    background-color: #f47521;
+}
+.carousel-inner-anime h2 {
+    color: black !important;
+    font-size: 1.8rem !important;
+    padding: 5px 5px;
+}
+.bookmark {
+    position: absolute;
+}
