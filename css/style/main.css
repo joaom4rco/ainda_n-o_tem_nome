@@ -68,17 +68,17 @@
     border-radius: 10px;
     background-color: #1ca4e9;
 
-    @media (max-width:304px) {
-        max-width: 220px;
-        min-width: 100px;
+    @media (max-width:309px) {
+        max-width: 23rem;
+        min-width: 8rem;
     }
-    @media (min-width:305px) and (max-width:409px) {
-        max-width: 265px;
-        min-width: 120px;
+    @media (min-width:310px) and (max-width:409px) {
+        max-width: 26rem;
+        min-width: 10rem;
     }
     @media (min-width:410px) and (max-width:469px) {
-        max-width: 330px;
-        min-width: 200px;
+        max-width: 35rem;
+        min-width: 30rem;
     }
     @media (min-width:470px) {
         max-width: 400px;
@@ -90,7 +90,7 @@
     font-size: 1.8rem !important;
     padding: 5px 5px;
 
-    @media (max-width:304px) {
+    @media (max-width:309px) {
       font-size: 1.5rem !important;   
     }
 }
