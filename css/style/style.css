@@ -27,7 +27,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     background-color: #232525;
-    padding: 15px 0 ;
+    padding:  0 0 5px;
 }
 .nav-icon-flex {
     display: inline-block;
@@ -37,8 +37,8 @@ body {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 10%;
-    font-size: 30px;
+    top: 5%;
+    font-size: 28px;
     color: #727272;
     font-weight: bold;
     position: relative;
@@ -47,22 +47,21 @@ body {
 .icon-grid-3 {
     position: relative;
     top: 8%;
-    font-size: 60px;
+    font-size: 0px;
 }
 .icon-grid-2 {
     display: flex;
     justify-content: flex-end;
-    padding-right: 6px;
 }
 .nav-img {
     display: flex;
     flex-direction: row;
 }
 .flex-img img {
-    width: 50px;
-    height: 49px;
+    width: 45px;
+    height: 44px;
     position: absolute;
-    top: 20%;
+    top: 0%;
 }
 .nav-img .nome-img {
     width: 110px;
