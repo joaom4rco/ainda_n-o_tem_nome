@@ -70,7 +70,7 @@
         min-width: 100px;
     }
     @media (max-width:409px) {
-        max-width: 280px;
+        max-width: 265px;
         min-width: 120px;
     }
     @media (min-width:470px) {
