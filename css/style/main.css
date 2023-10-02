@@ -106,7 +106,7 @@
 }
 
 .carousel-control-next, .carousel-control-prev {
-    @media (max-width:356px) {
+    @media (max-width:412px) {
         top: -20% !important;
     }
 }
