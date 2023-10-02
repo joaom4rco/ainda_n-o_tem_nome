@@ -46,6 +46,9 @@
     margin-left: 2%;
     position: absolute;
     top: 70%;
+    @media (max-width:304px) {
+
+    }
     @media (min-width:355px) {
         margin-left: 5%;
     }
@@ -66,26 +69,30 @@
     background-color: #1ca4e9;
 
     @media (max-width:304px) {
-        max-width: 90%;
+        max-width: 220px;
         min-width: 100px;
     }
-    @media (max-width:409px) {
+    @media (min-width:305px) and (max-width:409px) {
         max-width: 265px;
         min-width: 120px;
-    }
-    @media (min-width:470px) {
-        max-width: 400px;
-        min-width: 400px;
     }
     @media (min-width:410px) and (max-width:469px) {
         max-width: 330px;
         min-width: 200px;
     }
+    @media (min-width:470px) {
+        max-width: 400px;
+        min-width: 400px;
+    }
 }
-.carousel-inner-anime h2 {
+.carousel-inner-anime a {
     color: black !important;
     font-size: 1.8rem !important;
     padding: 5px 5px;
+
+    @media (max-width:304px) {
+      font-size: 1.5rem !important;   
+    }
 }
 .bookmark {
     font-size: 3rem;
@@ -94,6 +101,7 @@
     border: 3px solid #1ca4e9;
     border-radius: 3px;
     padding: 5px;
+
 }
 .play_arrow {
     color: black transparent, transparent;
