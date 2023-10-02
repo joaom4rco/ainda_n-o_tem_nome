@@ -66,11 +66,11 @@
     background-color: #1ca4e9;
 
     @media (max-width:304px) {
-        width: 230px;
-        min-width: 180px;
+        max-width: 90%;
+        min-width: 100px;
     }
     @media (max-width:409px) {
-        max-width: 250px;
+        max-width: 280px;
         min-width: 120px;
     }
     @media (min-width:470px) {
@@ -78,7 +78,7 @@
         min-width: 400px;
     }
     @media (min-width:410px) and (max-width:469px) {
-        max-width: 340px;
+        max-width: 330px;
         min-width: 200px;
     }
 }
