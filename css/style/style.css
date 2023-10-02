@@ -8,6 +8,7 @@
 
 :root {
     --font-padrao: font-family: 'Lato', sans-serif;
+    --cor1: #f47521;
 }
 body {
     background-color: black !important;
