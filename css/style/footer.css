@@ -1,0 +1,38 @@
+.footer-container {
+    margin: 6rem 15px;
+    background-image: linear-gradient(to top, #1f3640, black);
+}
+.footer-sections {
+    display: flex;
+    flex-direction: column;
+}
+.erc-section {
+    display: flex;
+    color: white !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.53);
+}
+.erc-section h4 {
+    font-size: 1.5rem;
+    margin: 1.8rem;
+}
+.erc-section ul {
+    list-style-type: none;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+.erc-section li {
+    color: rgb(163, 162, 162) !important;
+    font-size: 1.3rem !important;
+}
+.nome-criador {
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.53);
+}
+.nome-criador h4 {
+    font-size: 1.5rem;
+    margin: 1.8rem;
+    color: white !important;
+}
+.nome-criador p {
+    margin: 2rem 0;
+}
