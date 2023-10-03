@@ -22,11 +22,15 @@
     border-bottom: none;
 }
 .card-img:nth-child(1) {
-    margin-left: 0%;
+    margin-left: 5%;
+
+    @media (max-width:280px) {
+        margin-left: 0%;
+    }
 }
 .card-img:nth-child(2) {
-    margin-right: 15%;
-    margin-left: 30%;
+    margin-right: 0%;
+    margin-left: 20%;
 }
 
 .img-personagem {
@@ -34,12 +38,23 @@
    height: 180px;
    position: absolute;
    top: -44%;
+   @media (max-width:280px) {
+    width: 130px;
+    height: 130px;
+    top: -10%;
+   }
 }
 .img-logo {
 position: absolute;
    top: -24%;
    height: 150px;
     width: 120px;
+
+    @media (max-width:280px) {
+        width: 130px;
+        height: 130px;
+        top: -10%;
+       }
 }
 .card-informacao {
     margin: 1.5rem 15px;
