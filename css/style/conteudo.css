@@ -86,4 +86,15 @@ position: absolute;
     color: white !important;
     font-family: var(--font-padrao) !important;
     font-size: 2rem;
+    margin-top: 1.2rem;
+}
+.navigation__anime {
+    border: 3px solid #1ca4e9;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+.navigation__anime h3 {
+    padding: 8px 0 ; 
+    color: white !important;
 }
