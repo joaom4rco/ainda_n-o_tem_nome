@@ -10,7 +10,7 @@
     display: flex;
     background-image:linear-gradient(to bottom, #f47521,rgba(0, 0, 0, 0.21));
     border-bottom: none;
-    height: 100px;
+    height: 130px;
     margin-top: 150px;
     width: 100%;
 }
@@ -33,16 +33,16 @@
    width: 180px;
    height: 180px;
    position: absolute;
-   top: -80%;
+   top: -44%;
 }
 .img-logo {
 position: absolute;
-   top: -50%;
+   top: -24%;
    height: 150px;
     width: 120px;
 }
 .card-informacao {
-    margin: 0 15px;
+    margin: 1.5rem 15px;
 }
 .sinopse-anime p {
     line-height: 2.3rem;
