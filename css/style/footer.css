@@ -1,6 +1,7 @@
 .footer-container {
-    margin: 6rem 15px;
+    margin: 6rem 15px 0 ;
     background-image: linear-gradient(to top, #1f3640, black);
+    padding-bottom: 2px;
 }
 .footer-sections {
     display: flex;
