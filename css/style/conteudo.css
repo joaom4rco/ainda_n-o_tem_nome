@@ -82,3 +82,8 @@ position: absolute;
 .gif-anime-nav img {
     width: 200px;
 }
+.navigation p {
+    color: white !important;
+    font-family: var(--font-padrao) !important;
+    font-size: 2rem;
+}
