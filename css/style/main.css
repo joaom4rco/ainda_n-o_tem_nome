@@ -28,7 +28,7 @@
     min-height: 530px !important;
     max-height: 890px !important;
 
-    @media (min-width:460px) {
+    @media (max-width:460px) {
         min-height: 350px !important;
         max-height: 600px !important;
     }
@@ -46,13 +46,10 @@
     margin-left: 2%;
     position: absolute;
     top: 70%;
+        left: 50%;
+        transform: translateX(-50%);
     @media (min-width:355px) {
         margin-left: 5%;
-    }
-
-    
-    @media (min-width:410px) {
-        top: 80%;
     }
     
 }
@@ -79,6 +76,7 @@
         min-width: 30rem;
     }
     @media (min-width:470px) {
+        margin: auto;
         max-width: 400px;
         min-width: 400px;
     }
@@ -108,5 +106,8 @@
 .carousel-control-next, .carousel-control-prev {
     @media (max-width:420px) {
         top: -20% !important;
+    }
+    @media (min-width:470px) {
+        top: -50% !important;
     }
 }
