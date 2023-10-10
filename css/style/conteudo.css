@@ -37,7 +37,7 @@
    width: 180px;
    height: 180px;
    position: absolute;
-   top: -52%;
+   top: -48%;
    @media (max-width:280px) {
     width: 130px;
     height: 130px;
