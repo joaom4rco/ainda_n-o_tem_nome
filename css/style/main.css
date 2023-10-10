@@ -46,12 +46,8 @@
     margin-left: 2%;
     position: absolute;
     top: 70%;
-        left: 50%;
-        transform: translateX(-50%);
-    @media (min-width:355px) {
-        margin-left: 5%;
-    }
-    
+    left: 50%;
+    transform: translateX(-50%);
 }
 .carousel-inner-anime {
     display: flex;
@@ -72,8 +68,8 @@
         min-width: 10rem;
     }
     @media (min-width:410px) and (max-width:469px) {
-        max-width: 34.2rem;
-        min-width: 30rem;
+        max-width: 28rem;
+        min-width: 27rem;
     }
     @media (min-width:470px) {
         margin: auto;
